@@ -28,9 +28,10 @@ var HomeMain = React.createClass({
                           </div>
 
                       </div>
+                      <div className="col-md-5">
                         <div className="items__layer layer" data-depth="0.2">
-                          <div className="items__item">
-                      <div className="col-md-5 form color0 wow fadeIn">
+                        <div className="items__item">
+                        <div className="form color0 wow fadeIn">
                         <h2>ОСТАВЬТЕ ЗАЯВКУ</h2>
                         <form className="form-header" action="http://moxdesign.us10.list-manage.com/subscribe/post" role="form" method="POST" id="#">
                            <div className="form-group">
@@ -65,6 +66,7 @@ var HomeMain = React.createClass({
                       </div>
                     </div>
                    </div>
+                 </div>
                   </div>
                 </div>
               </div>

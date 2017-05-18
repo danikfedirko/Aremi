@@ -6,124 +6,77 @@ function Prices() {
       <div id="package">
           <div className="container">
               <div className="text-center">
-
-                  <h2 className="wow fadeInLeft">PACKAGES</h2>
-                  <div className="title-line wow fadeInRight"></div>
+                  <h1 className="wow fadeInLeft">Цены</h1>
               </div>
               <div className="row package-option">
-
-                  <div className="col-sm-3">
+                  <div className="col-sm-4">
                       <div className="price-box wow fadeInUp">
                           <div className="price-heading text-center">
-
-                              <i className="pe-7s-radio pe-5x"></i>
-
-                              <h3>Basic</h3>
+                              <h3>Быстрый старт</h3>
                           </div>
-
                           <div className="price-group text-center">
-                              <span className="dollar">$</span>
-                              <span className="price">9</span>
-                              <span className="time">/mo</span>
+                              <span className="dollar">До</span>
+                              <span className="price colored-link">200</span>
+                              <span className="time">$</span>
                           </div>
-
                           <ul className="price-feature text-center">
-                              <li><strong>100MB</strong> Disk Space</li>
-                              <li><strong>200MB</strong> Bandwidth</li>
-                              <li><strong>2</strong> Subdomains</li>
-                              <li><strong>5</strong> Email Accounts</li>
-                              <li><strike>Webmail Support</strike></li>
+                              <li><b>Идеально подходит для теста ниши или продукта</b></li>
+                              <li><strike>Уникальный дизайн</strike></li>
+                              <li>Форма для сбора заказов или заявок</li>
+                              <li><strike>Продвижение</strike></li>
+                              <li>Строки: <b>2 дня</b></li>
+                              <li><i className="pe-7s-star colored-link"></i> Фокусировка на продукте</li>
                           </ul>
-
                           <div className="price-footer text-center">
-                              <a className="btn btn-price" href="#">BUY NOW</a>
+                              <a className="btn btn-default" href="#">Заказать</a>
                           </div>
                       </div>
                   </div>
 
-                  <div className="col-sm-3">
-                      <div className="price-box wow fadeInUp" data-wow-delay="0.2s">
+                  <div className="col-sm-4">
+                      <div className="price-box wow fadeInUp">
                           <div className="price-heading text-center">
-
-                              <i className="pe-7s-joy pe-5x"></i>
-
-                              <h3>Standard</h3>
+                              <h3>Уверенная походка</h3>
                           </div>
-
                           <div className="price-group text-center">
-                              <span className="dollar">$</span>
-                              <span className="price">19</span>
-                              <span className="time">/mo</span>
+                              <span className="dollar">До</span>
+                              <span className="price colored-link">500</span>
+                              <span className="time">$</span>
                           </div>
-
                           <ul className="price-feature text-center">
-                              <li><strong>300MB</strong> Disk Space</li>
-                              <li><strong>400MB</strong> Bandwidth</li>
-                              <li><strong>5</strong> Subdomains</li>
-                              <li><strong>10</strong> Email Accounts</li>
-                              <li><strike>Webmail Support</strike></li>
+                              <li><b>Сайт для уже состоявшегося бизнеса или человека, который хочет играть по-крупному</b></li>
+                              <li>Уникальный дизайн</li>
+                              <li>Форма для сбора заказов или заявок</li>
+                              <li>Продвижение</li>
+                              <li>Строки: <b>до 2 недель</b></li>
+                              <li><i className="pe-7s-star colored-link"></i> Работа над подачей себя в сети</li>
                           </ul>
-
                           <div className="price-footer text-center">
-                              <a className="btn btn-price" href="#">BUY NOW</a>
+                              <a className="btn btn-default" href="#">Заказать</a>
                           </div>
                       </div>
                   </div>
 
-                  <div className="col-sm-3">
-                      <div className="price-box wow fadeInUp" data-wow-delay="0.4s">
+                  <div className="col-sm-4">
+                      <div className="price-box wow fadeInUp">
                           <div className="price-heading text-center">
-
-                              <i className="pe-7s-science pe-5x"></i>
-
-                              <h3>Advance</h3>
+                              <h3>Я круче всех</h3>
                           </div>
-
                           <div className="price-group text-center">
-                              <span className="dollar">$</span>
-                              <span className="price">29</span>
-                              <span className="time">/mo</span>
+                              <span className="dollar">От</span>
+                              <span className="price colored-link">500</span>
+                              <span className="time">$</span>
                           </div>
-
                           <ul className="price-feature text-center">
-                              <li><strong>1GB</strong> Disk Space</li>
-                              <li><strong>1GB</strong> Bandwidth</li>
-                              <li><strong>10</strong> Subdomains</li>
-                              <li><strong>25</strong> Email Accounts</li>
-                              <li>Webmail Support</li>
+                              <li><b>Создание уникального и масштабного проекта</b></li>
+                              <li>Уникальный дизайн</li>
+                              <li>Использование передовых технологий</li>
+                              <li>Продвижение</li>
+                              <li>Строки: <b>от 1 месяца</b></li>
+                              <li><i className="pe-7s-star colored-link"></i>Создание очень крепкого и крутого инструмента продаж</li>
                           </ul>
-
                           <div className="price-footer text-center">
-                              <a className="btn btn-price" href="#">BUY NOW</a>
-                          </div>
-                      </div>
-                  </div>
-
-                  <div className="col-sm-3">
-                      <div className="price-box wow fadeInUp" data-wow-delay="0.6s">
-                          <div className="price-heading text-center">
-
-                              <i className="pe-7s-tools pe-5x"></i>
-
-                              <h3>Ultimate</h3>
-                          </div>
-
-                          <div className="price-group text-center">
-                              <span className="dollar">$</span>
-                              <span className="price">49</span>
-                              <span className="time">/mo</span>
-                          </div>
-
-                          <ul className="price-feature text-center">
-                              <li><strong>5GB</strong> Disk Space</li>
-                              <li><strong>5GB</strong> Bandwidth</li>
-                              <li><strong>50</strong> Subdomains</li>
-                              <li><strong>50</strong> Email Accounts</li>
-                              <li>Webmail Support</li>
-                          </ul>
-
-                          <div className="price-footer text-center">
-                              <a className="btn btn-price" href="#">BUY NOW</a>
+                              <a className="btn btn-default" href="#">Заказать</a>
                           </div>
                       </div>
                   </div>

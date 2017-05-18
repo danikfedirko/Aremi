@@ -40,6 +40,7 @@
             s.stickyElement
               .css('width', '')
               .css('position', '')
+              .css('visibility', 'hidden')
               .css('top', '');
             s.stickyElement.trigger('sticky-end', [s]).parent().removeClass(s.className);
             s.currentTop = null;
@@ -56,6 +57,7 @@
           if (s.currentTop != newTop) {
             s.stickyElement
               .css('width', s.stickyElement.width())
+              .css('visibility', 'visible')
               .css('position', 'fixed')
               .css('top', newTop);
 
@@ -86,7 +88,7 @@
           var stickyElement = $(this);
 
           var stickyId = stickyElement.attr('id');
-          var wrapperId = stickyId ? stickyId + '-' + defaults.wrapperClassName : defaults.wrapperClassName 
+          var wrapperId = stickyId ? stickyId + '-' + defaults.wrapperClassName : defaults.wrapperClassName
           var wrapper = $('<div></div>')
             .attr('id', stickyId + '-sticky-wrapper')
             .addClass(o.wrapperClassName);

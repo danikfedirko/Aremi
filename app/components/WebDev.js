@@ -9,8 +9,8 @@ var WebDev = React.createClass({
   },
   render: function() {
     return (
-      <div className="fullscreen landing parallax" style={{backgroundImage:"url('app/images/bg.jpg')",backgroundSize: "cover", backgroundPosition: "bottom"}}>
-            <div className="overlay">
+      <div className="fullscreen parallax" style={{backgroundImage:"url('app/images/bg.jpg')",backgroundSize: "cover", backgroundPosition: "bottom"}}>
+            <div className="">
               <Menu/>
               <div className=" items">
                 <div className="items__inner" id="js-scene">

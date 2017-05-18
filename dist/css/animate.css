@@ -3156,3 +3156,129 @@ Copyright (c) 2014 Daniel Eden
   -webkit-animation-name: slideOutUp;
           animation-name: slideOutUp;
 }
+
+
+.link--yaku {
+	color: #333;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 2.5em;
+  margin: 10px;
+	overflow: hidden;
+	padding: 0 0 10px;
+  position: relative;
+}
+
+.link--yaku::before {
+	content: '';
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	border-width: 2px 0;
+  border-image: linear-gradient(45deg,#726193 20%,#e37b7c 60%,#ffe4b4);
+	border-style: solid;
+	left: 0;
+	-webkit-transform: translate3d(-101%,0,0);
+	transform: translate3d(-101%,0,0);
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
+}
+
+.link--yaku:hover::before {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+.link--yaku span {
+  	color: #424142;
+	display: inline-block;
+	position: relative;
+	-webkit-transform: perspective(1000px) rotate3d(0,1,0,0deg);
+	transform: perspective(1000px) rotate3d(0,1,0,0deg);
+	-webkit-transition: -webkit-transform 0.5s, color 0.5s;
+	transition: transform 0.5s, color 0.5s;
+}
+
+.link--yaku:hover span {
+	-webkit-transform: perspective(1000px) rotate3d(0,1,0,360deg);
+	transform: perspective(1000px) rotate3d(0,1,0,360deg);
+  background-image:linear-gradient(45deg,#726193 20%,#e37b7c 60%,#ffe4b4);
+  color: transparent;
+  -webkit-background-clip: text;
+
+}
+
+.link--yaku span:nth-child(4),
+.link--yaku:hover span:first-child {
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+}
+
+.link--yaku span:nth-child(3),
+.link--yaku:hover span:nth-child(2) {
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
+
+.link--yaku span:nth-child(2),
+.link--yaku:hover span:nth-child(3) {
+	-webkit-transition-delay: 0.2s;
+	transition-delay: 0.2s;
+}
+
+.link--yaku span:first-child,
+.link--yaku:hover span:nth-child(4) {
+	-webkit-transition-delay: 0.3s;
+	transition-delay: 0.3s;
+}
+.input--kyo {
+	z-index: auto;
+}
+
+.input__field--kyo {
+	padding: 0.85em 1.5em;
+	width: 100%;
+	border-radius: 2em;
+	background: #fff;
+	color: #535d92;
+}
+
+.input__label--kyo {
+	z-index: 0;
+	padding: 0 0 0 2em;
+	width: 100%;
+	text-align: left;
+}
+
+.input__label--kyo::after {
+	content: '';
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(45deg,#726193 20%,#e37b7c 60%,#ffe4b4);
+	opacity: 0;
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+	pointer-events: none;
+}
+
+.input__label-content--kyo {
+	padding: 0.5em 0;
+}
+
+.input__field--kyo:focus,.signup-header, h3.form-title,p.privacy,
+.input__field--kyo:focus +  .input__label--kyo .input__label-content--kyo{
+	z-index: 10000;
+  position: relative;
+}
+
+.input__field--kyo:focus + .input__label--kyo {
+	color: #fff;
+}
+
+.input__field--kyo:focus + .input__label--kyo::after {
+	opacity: 0.3;
+}
