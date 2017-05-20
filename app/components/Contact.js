@@ -16,7 +16,7 @@ var Contact = React.createClass({
                                   </li>
                                   <li><i className="pe-7s-phone"></i>+38 093 64 54 810<br/>
                                   </li>
-                                  <li><i className="pe-7s-mail"></i><span className="colored-link">danylo.fedirko@gmail.com</span></li>
+                                  <li><i className="pe-7s-mail"></i>danylo.fedirko@gmail.com</li>
                               </ul>
                           </div>
 

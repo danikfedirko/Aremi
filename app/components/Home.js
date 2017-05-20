@@ -32,7 +32,8 @@ var Home = React.createClass({
                   <li>Интернет-журнал</li>
                   <li>Сайт - каталог товаров</li>
                 </ul>}
-                linkTo="/webdev"/>
+                linkTo="/webdev"
+                showButton={true}/>
 
                 <FeatureWithImgRight
                   imgSrc="dist/images/allowwonder_smm.png"
@@ -42,7 +43,8 @@ var Home = React.createClass({
                     <li>Аватар</li>
                     <li>Единый дизайн постов</li>
                   </ul>}
-                  linkTo="/webdev"/>
+                  linkTo="/webdev"
+                  showButton={true}/>
                 <Advantages/>
             <Prices/>
             <Contact/>

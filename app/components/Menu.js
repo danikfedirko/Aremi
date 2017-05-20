@@ -13,9 +13,9 @@ function Menu(){
                       <span className="icon-bar"></span>
                       <span className="icon-bar"></span>
                   </button>
-                  <a className="site-name link link--yaku" href="/">
+                  <Link className="site-name link link--yaku" to="/">
 					           <span>A</span><span>R</span><span>E</span><span>M</span><span>I</span>
-                  </a>
+                  </Link>
               </div>
 
               <div id="navbar-scroll" className="collapse navbar-collapse navbar-top navbar-right">

@@ -11,9 +11,7 @@ var HomeMain = React.createClass({
       <div>
       <div id="preloader"></div>
       <div id="top"></div>
-
       <div className="fullscreen">
-          <div>
             <div className=" items">
               <div className="items__inner" id="js-scene">
             <Menu/>
@@ -26,7 +24,6 @@ var HomeMain = React.createClass({
                           <div className="wow fadeInUp">
                               <p>Мы предлагаем создание очень быстрого и красивого сайта + упаковку и продвижение вашего бизнеса в социальных сетях.</p>
                           </div>
-
                       </div>
                       <div className="col-md-5">
                         <div className="items__layer layer" data-depth="0.2">
@@ -71,7 +68,6 @@ var HomeMain = React.createClass({
                 </div>
               </div>
               </div>
-          </div>
       </div>
       <MenuBottom/>
       </div>
